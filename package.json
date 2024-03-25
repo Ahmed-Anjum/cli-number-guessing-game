@@ -1,0 +1,19 @@
+{
+  "name": "ahmedanjum-number-guessing-game",
+  "version": "1.0.1",
+  "description": "This is a cli based numbers guessing game.",
+  "main": "index.js",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin" : "index.js", 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ahmed Anjum",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^9.2.16"
+  }
+}
